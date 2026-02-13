@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <button class="tablink active" onclick="openTab(event,'home')">Home</button>
+        <button class="tablink" onclick="openTab(event,'about')">About</button>
+        <button class="tablink" onclick="openTab(event,'contact')">Contact</button>
+    </div>
+
+    <!-- Home -->
+    <div id="home" class="tabcontent" style="display:block;">
+        <div class="card">
+            <h1>Welcome</h1>
+            <p>Hello! I'm Mahir 👋</p>
+            <p>A passionate Web Developer.</p>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about" class="tabcontent">
+        <div class="card">
+            <h1>About Me</h1>
+            <p>I love building websites and solving programming problems.</p>
+            <p><strong>Skills:</strong> HTML, CSS, JavaScript, Python</p>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="tabcontent">
+        <div class="card">
+            <h1>Contact Me</h1>
+            <p>Email: yourmail@gmail.com</p>
+            <p>Phone: 9876543210</p>
+            <button class="contact-btn">Send Message</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

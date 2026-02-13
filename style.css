@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: rgba(0,0,0,0.3);
+    padding: 15px;
+}
+
+.navbar button {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 25px;
+}
+
+.navbar button:hover {
+    background: white;
+    color: #764ba2;
+}
+
+.navbar button.active {
+    background: white;
+    color: #764ba2;
+}
+
+/* Tab Content */
+.tabcontent {
+    display: none;
+    padding: 60px 20px;
+    text-align: center;
+    animation: fadeEffect 0.6s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Card */
+.card {
+    background: rgba(255,255,255,0.15);
+    padding: 30px;
+    margin: auto;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Contact Button */
+.contact-btn {
+    background: white;
+    color: #764ba2;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background: #764ba2;
+    color: white;
+}
